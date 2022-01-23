@@ -6,8 +6,8 @@ services:
     container_name: database
     environment:
       MYSQL_ROOT_PASSWORD: P123456p
-      MYSQL_USER: clarusway
-      MYSQL_PASSWORD: Clarusway_1
+      MYSQL_USER: stevie
+      MYSQL_PASSWORD: Stevie_1
       MYSQL_DATABASE: bookstore_db
     networks:
       - clarusnet
